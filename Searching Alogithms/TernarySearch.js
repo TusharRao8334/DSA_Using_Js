@@ -21,7 +21,7 @@ function ternarySearch(arr, l, r, key) {
 // driver code
 
 let arr = [12, 15, 18, 23, 28, 30, 33, 35, 38, 43, 49, 51, 54, 60];
-let key = 24;
+let key = 28;
 let r = arr.length - 1;
 let l = 0;
 let ans = ternarySearch(arr, l, r, key);
