@@ -25,4 +25,4 @@ let key = 28;
 let r = arr.length - 1;
 let l = 0;
 let ans = ternarySearch(arr, l, r, key);
-console.log(ans);
+console.log(`The element present in the array is at ${ans} position`);
