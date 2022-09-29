@@ -1,5 +1,5 @@
-// selection sort
-// function Defination
+// implementation of selection sort in JS
+// function Defination  // Time complexity O(n^2)
 function selectionSort(arr) {
     for (let i = 0; i < arr.length; i++) {
         let min = i;
